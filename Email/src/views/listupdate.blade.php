@@ -77,7 +77,7 @@ $(document).ready(function() {
         "processing": true,
 
         "serverSide": true,
-        "pageLength": 5,
+        "pageLength": 10,
 
         "ajax": "{{ route('datatable.getposts') }}",
 
